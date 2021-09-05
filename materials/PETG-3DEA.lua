@@ -8,7 +8,7 @@ name_es = "PETG"
 
 filament_linear_adv_factor = 45
 
-extruder_temp_degree_c_0 = 228
+extruder_temp_degree_c_0 = 242
 bed_temp_degree_c = 82
 
 filament_priming_mm_0 = 0.8
