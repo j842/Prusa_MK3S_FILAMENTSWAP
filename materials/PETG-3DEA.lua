@@ -2,9 +2,12 @@ name_en = "PETG - 3DEA"
 name_fr = "PETG"
 name_es = "PETG"
 
+-- https://www.3dea.co.nz/shop/index.php/product/petg-white-1-75mm/
+-- 200-240, 75-90
+
+
 filament_linear_adv_factor = 45
 
--- 200-240, 75-90
 extruder_temp_degree_c_0 = 228
 bed_temp_degree_c = 82
 

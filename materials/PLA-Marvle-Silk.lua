@@ -2,6 +2,8 @@ name_en = "Marvle Silk PLA+"
 name_fr = "PLA"
 name_es = "PLA"
 
+-- https://marvle3d.co.nz/3d-filament/1692-white-colored-premium-silk-pla-3d-printer-filament.html
+
 filament_linear_adv_factor = 30
 
 extruder_temp_degree_c_0 = 210
