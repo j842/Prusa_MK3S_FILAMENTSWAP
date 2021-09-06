@@ -1,6 +1,6 @@
-name_en = "PETG-Marvle3D"
-name_fr = "PETG-Marvle3D"
-name_es = "PETG-Marvle3D"
+name_en = "PETG - Marvle3D"
+name_fr = "PETG - Marvle3D"
+name_es = "PETG - Marvle3D"
 
 -- https://marvle3d.co.nz/3d-filament/1626-383-petg-3d-filament-8-colours-available.html#/46-colors-full_color_drop_down_list
 
