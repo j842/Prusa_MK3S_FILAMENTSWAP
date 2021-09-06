@@ -1,6 +1,6 @@
-name_en = "Marvle Silk PLA+"
-name_fr = "PLA"
-name_es = "PLA"
+name_en = "PLA+ - Marvle Silk"
+name_fr = "PLA+ - Marvle Silk"
+name_es = "PLA+ - Marvle Silk"
 
 -- https://marvle3d.co.nz/3d-filament/1692-white-colored-premium-silk-pla-3d-printer-filament.html
 

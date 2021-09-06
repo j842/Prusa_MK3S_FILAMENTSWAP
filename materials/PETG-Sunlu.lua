@@ -1,6 +1,6 @@
 name_en = "PETG - Sunlu"
-name_fr = "PETG"
-name_es = "PETG"
+name_fr = "PETG - Sunlu"
+name_es = "PETG - Sunlu"
 
 filament_linear_adv_factor = 45
 
