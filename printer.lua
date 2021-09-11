@@ -1,4 +1,4 @@
--- Original Prusa MK3S 
+-- Original Prusa MK3S with Filament Swap
 -- 2019-05-01
 
 extruder_e = 0
@@ -71,7 +71,7 @@ end
 function retract(extruder,e)
   output(';retract')
   local len   = filament_priming_mm[extruder]
-  local speed = priming_mm_per_sec[extruder] * 60
+  local speed = retract_mm_per_sec[extruder] * 60
   output('G0 F' .. speed .. ' E' .. ff(e - len - extruder_e_restart))
   extruder_e = e - len
   current_frate = speed
@@ -228,3 +228,11 @@ function set_fan_speed(speed)
     current_fan_speed = speed
   end
 end
+
+function wait(sec,x,y,z)
+  output("; WAIT --" .. sec .. "s remaining" )
+  output("G0 F" .. travel_speed_mm_per_sec .. " X10 Y10")
+  output("G4 S" .. sec .. "; wait for " .. sec .. "s")
+  output("G0 F" .. travel_speed_mm_per_sec .. " X" .. f(x) .. " Y" .. f(y) .. " Z" .. ff(z))
+end
+

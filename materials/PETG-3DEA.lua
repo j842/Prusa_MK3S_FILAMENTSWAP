@@ -1,6 +1,6 @@
 name_en = "PETG - 3DEA"
-name_fr = "PETG"
-name_es = "PETG"
+name_fr = "PETG - 3DEA"
+name_es = "PETG - 3DEA"
 
 -- https://www.3dea.co.nz/shop/index.php/product/petg-white-1-75mm/
 -- 200-240, 75-90
