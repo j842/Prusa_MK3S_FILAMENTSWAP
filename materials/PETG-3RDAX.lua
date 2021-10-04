@@ -1,6 +1,6 @@
-name_en = "PETG-3RDAX"
-name_fr = "PETG-3RDAX"
-name_es = "PETG-3RDAX"
+name_en = "PETG - 3RDAX"
+name_fr = "PETG - 3RDAX"
+name_es = "PETG - 3RDAX"
 
 filament_linear_adv_factor = 45
 
